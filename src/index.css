@@ -280,3 +280,8 @@ html {
   animation: scroll-continuous 20s linear infinite;
   will-change: transform;
 }
+
+@media(max-width:767px){
+.emailmobile{font-size: 12px;}
+
+}

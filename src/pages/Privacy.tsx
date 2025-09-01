@@ -55,7 +55,7 @@ const Privacy = () => {
               </p>
 
               <Button asChild  className="mb-4">
-                <a href="mailto:privacidade@grupoakiyama.com.br">
+                <a href="mailto:privacidade@grupoakiyama.com.br" className="emailmobile">
                   privacidade@grupoakiyama.com.br
                 </a>
               </Button>

@@ -32,7 +32,7 @@ export const Footer = () => {
           <div className="mb-8 lg:mb-0">
             <h3 className="font-bold mb-4 lg:text-lg">Termos e Política</h3>
             <ul className="space-y-2 text-sm text-gray-400 lg:text-base lg:space-y-3">
-              <li><Link to="/privacidade" className="hover:text-white xl:text-sm 2xl:text-base">Política de Privacidade</Link></li>
+              <li><Link to="/privacidade" className="hover:text-white xl:text-sm 2xl:text-base">Políticas</Link></li>
             </ul>
           </div>
         </div>

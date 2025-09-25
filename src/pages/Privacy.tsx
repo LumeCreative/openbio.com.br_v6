@@ -12,7 +12,7 @@ const Privacy = () => {
       <NavBar />
 
       {/* Header Section */}
-      <section className="pt-32 pb-16 px-5 text-white mt-10">
+      {/* <section className="pt-32 pb-16 px-5 text-white mt-10">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl font-bold mb-4 lg:text-6xl">
             Compromisso com a Privacidade
@@ -32,11 +32,11 @@ const Privacy = () => {
             <Button className="mb-8">Saiba mais</Button>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Privacy Content */}
       <section className="pb-16 px-5">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-6xl mx-auto">
           <div className="bg-black rounded-lg p-8 relative overflow-hidden h-[600px] items-end justify-start flex" style={{
             backgroundImage: 'url(/lovable-uploads/privacy.png)',
             backgroundPosition: 'center right',
@@ -110,120 +110,173 @@ const Privacy = () => {
         </div>
       </section> */}
 
+
       <section className="pb-16 px-5">
-  <div className="max-w-6xl mx-auto">
-    <div className="bg-white rounded-lg p-8 shadow-lg">
-      <h2 className="text-black font-bold text-2xl mb-2">Política de Privacidade</h2><br></br><br></br>
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-white rounded-lg p-8 shadow-lg">
+            <h2 className="text-black font-bold text-2xl mb-2">Política da Qualidade</h2>
 
-      <div className="space-y-6">
-        <div>
-          <h2 className="text-black font-bold text-2xl mb-8">1. Compromisso com a Privacidade</h2>
-          <p className="text-gray-700 leading-relaxed">
-            O Grupo Akiyama valoriza sua privacidade e segue as leis aplicáveis para proteger seus dados pessoais. Este documento explica como coletamos, utilizamos e protegemos suas informações durante o uso do nosso site.
-          </p>
-        </div>
+            <div className="space-y-6">
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  A Alta Direção estabeleceu, implementou, mantém e comunica uma Política da Qualidade atendendo o estabelecido no requisito 5.2 da NBR ISO 9001:2015: 
+                </p>
+              </div>
 
-        <h2 className="text-black font-bold text-2xl mb-8">2. Aplicação</h2>
-        <div>
-          <p className="text-gray-700 leading-relaxed">
-            A Política se aplica a todas as empresas abaixo expressas:
-          </p>
-          <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-            <li>
-              a) <b>AKIYAMA S.A. – INDÚSTRIA E COMÉRCIO DE EQUIPAMENTOS ELETRÔNICOS E SISTEMAS S.A (OpenBio)</b> – CNPJ 02.688.100/0001-88 e Filial – CNPJ 02.688.100/0004-20;
-            </li>
-            <li>
-              b) <b>NAX ADMINISTRAÇÃO DE BENS E PARTICIPAÇÕES LTDA</b> – CNPJ 17.809.418/0001-47;
-            </li>
-            <li>
-              c) <b>NATOSAFE TECNOLOGIA DA INFORMACAO S/A</b> – CNPJ 17.908.486/0001-63;
-            </li>
-            <li>
-              d) <b>NEOYAMA INDÚSTRIA E COMÉRCIO DE ELETROELETRÔNICOS LTDA</b> – CNPJ 15.806.916/0001-00;
-            </li>
-            <li>
-              e) <b>ANTHEUS-TECNOLOGIA LTDA</b> – CNPJ 01.167.328/0001-60.
-            </li>
-          </ul>
-        </div>
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                 A AKIYAMA, comprometida com os seus clientes, seus parceiros de negócios e seus colaboradores, tem sua Política da Qualidade (rev.4) nos seguintes princípios, visando atender às necessidades de suas partes interessadas: 
 
-        <h2 className="text-black font-bold text-2xl mb-8">3. Coleta e Uso de Dados</h2>
-        <div>
-          <p className="text-gray-700 leading-relaxed">
-            Ao acessar nosso site, coletamos informações automaticamente por meio de cookies, como:
-          </p>
-          <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-            <li><b>Endereço de IP</b></li>
-            <li><b>Tipo de navegador e dispositivo</b></li>
-            <li><b>Páginas visitadas e tempo de navegação</b></li>
-            <li><b>Dados demográficos gerais (como idioma)</b></li>
-          </ul>
-          <br></br>
-          <p className="text-gray-700 leading-relaxed">
-            Esses dados são utilizados exclusivamente para:
-          </p>
-          <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-            <li>Melhorar sua experiência no site.</li>
-            <li>Analisar comportamento de navegação com ferramentas como o Google Analytics.</li>
-            <li>Otimizar nosso conteúdo e design. Não usamos os dados para identificação direta e nunca compartilhamos ou vendemos suas informações a terceiros.</li>
-          </ul>
-       
-        </div>
+                </p>
+                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
+                  <li>
+                    Fornecer produtos e soluções multibiométricas, investindo constantemente em novas tecnologias; 
+                  </li>
+                  <li>
+                    Gerenciar os riscos do negócio e dos processos internos, compartilhando as melhores práticas de gestão; 
+                  </li>
+                  <li>
+                    Garantir o crescimento sustentável do negócio e a satisfação dos clientes; 
+                  </li>
+                  <li>
+                    Fomentar o desenvolvimento dos seus colaboradores; 
+                  </li>
+                  <li>
+                    Aprimorar continuamente os seus processos.
+                  </li>
+                </ul>
+              </div>
 
-        <h2 className="text-black font-bold text-2xl mb-8">4. Privacidade e Segurança</h2>
-        <div>
-          <p className="text-gray-700 leading-relaxed">
-            Adotamos medidas técnicas e administrativas para proteger as informações coletadas contra acessos não autorizados, alterações ou divulgações indevidas. Seus dados são tratados com confidencialidade e utilizados apenas para os fins descritos nesta política.
-          </p>
-        </div>
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  <b>Obs:</b> A Política da Qualidade da AKIYAMA, tem o seu controle vinculado ao Manual da Qualidade.
+                </p>
+              </div>
 
-        <h2 className="text-black font-bold text-2xl mb-8">5. Uso de Cookies</h2>
-        <div>
-          <p className="text-gray-700 leading-relaxed">
-            Cookies são arquivos armazenados em seu navegador que ajudam a personalizar sua navegação. Utilizamos cookies para:
-          </p>
-          <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-            <li>Identificar preferências de navegação.</li>
-            <li>Monitorar o desempenho do site.</li>
-          </ul>
-          <br></br>
-          <p className="text-gray-700 leading-relaxed">
-            Você pode gerenciar ou desativar os cookies em seu navegador, embora isso possa impactar algumas funcionalidades do site.
-          </p>
-        </div>
+              
 
-        <h2 className="text-black font-bold text-2xl mb-8">6. Seus Direitos</h2>
-        <div>
-          <p className="text-gray-700 leading-relaxed">
-            Você pode:
-          </p>
-          <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
-            <li>Limitar ou bloquear o uso de cookies nas configurações do navegador.</li>
-            <li>Solicitar correções ou exclusão de informações pessoais enviando um e-mail para nós.</li>
-          </ul>
+              <div>
+                <img className="max-w-[200px] mt-10" src="/lovable-uploads/ISO-9001_col.jpg"></img>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <h2 className="text-black font-bold text-2xl mb-8">7. Alterações na Política</h2>
-        <div>
-          <p className="text-gray-700 leading-relaxed">
-            Esta política pode ser atualizada periodicamente para refletir melhorias ou mudanças legais. A versão mais recente estará sempre disponível nesta página.
-          </p>
-        </div>
+      <section className="pb-16 px-5">
+        <div className="max-w-6xl mx-auto">
+          <div className="bg-white rounded-lg p-8 shadow-lg">
+            <h2 className="text-black font-bold text-2xl mb-2">Política de Privacidade</h2>
 
-        <h2 className="text-black font-bold text-2xl mb-8">8. Contato</h2>
-        <div>
-          <p className="text-gray-700 leading-relaxed">
-            Dúvidas ou solicitações relacionadas à privacidade? Escreva para <b>privacidade@grupoakiyama.com.br</b>.
-          </p>
-        </div>
+            <div className="space-y-6">
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  O Grupo Akiyama valoriza sua privacidade e segue as leis aplicáveis para proteger seus dados pessoais. Este documento explica como coletamos, utilizamos e protegemos suas informações durante o uso do nosso site.
+                </p>
+              </div>
 
-        <div>
-          <img className="max-w-[200px] mt-10" src="/lovable-uploads/ISO-9001_col.jpg"></img>
+
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  A Política se aplica a todas as empresas abaixo expressas:
+                </p>
+                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
+                  <li>
+                    a) <b>AKIYAMA S.A. – INDÚSTRIA E COMÉRCIO DE EQUIPAMENTOS ELETRÔNICOS E SISTEMAS S.A (OpenBio)</b> – CNPJ 02.688.100/0001-88 e Filial – CNPJ 02.688.100/0004-20;
+                  </li>
+                  <li>
+                    b) <b>NAX ADMINISTRAÇÃO DE BENS E PARTICIPAÇÕES LTDA</b> – CNPJ 17.809.418/0001-47;
+                  </li>
+                  <li>
+                    c) <b>NATOSAFE TECNOLOGIA DA INFORMACAO S/A</b> – CNPJ 17.908.486/0001-63;
+                  </li>
+                  <li>
+                    d) <b>NEOYAMA INDÚSTRIA E COMÉRCIO DE ELETROELETRÔNICOS LTDA</b> – CNPJ 15.806.916/0001-00;
+                  </li>
+                  <li>
+                    e) <b>ANTHEUS-TECNOLOGIA LTDA</b> – CNPJ 01.167.328/0001-60.
+                  </li>
+                </ul>
+              </div>
+
+              <h2 className="text-black font-bold text-2xl mb-8">1. Coleta e Uso de Dados</h2>
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  Ao acessar nosso site, coletamos informações automaticamente por meio de cookies, como:
+                </p>
+                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
+                  <li>Endereço de IP</li>
+                  <li>Tipo de navegador e dispositivo</li>
+                  <li>Páginas visitadas e tempo de navegação</li>
+                  <li>Dados demográficos gerais (como idioma)</li>
+                </ul>
+                <br></br>
+                <p className="text-gray-700 leading-relaxed">
+                  Esses dados são utilizados exclusivamente para:
+                </p>
+                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
+                  <li>Melhorar sua experiência no site.</li>
+                  <li>Analisar comportamento de navegação com ferramentas como o Google Analytics.</li>
+                  <li>Otimizar nosso conteúdo e design. Não usamos os dados para identificação direta e nunca compartilhamos ou vendemos suas informações a terceiros.</li>
+                </ul>
+            
+              </div>
+
+              <h2 className="text-black font-bold text-2xl mb-8">2. Privacidade e Segurança</h2>
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  Adotamos medidas técnicas e administrativas para proteger as informações coletadas contra acessos não autorizados, alterações ou divulgações indevidas. Seus dados são tratados com confidencialidade e utilizados apenas para os fins descritos nesta política.
+                </p>
+              </div>
+
+              <h2 className="text-black font-bold text-2xl mb-8">3. Uso de Cookies</h2>
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  Cookies são arquivos armazenados em seu navegador que ajudam a personalizar sua navegação. Utilizamos cookies para:
+                </p>
+                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
+                  <li>Identificar preferências de navegação.</li>
+                  <li>Monitorar o desempenho do site.</li>
+                </ul>
+                <br></br>
+                <p className="text-gray-700 leading-relaxed">
+                  Você pode gerenciar ou desativar os cookies em seu navegador, embora isso possa impactar algumas funcionalidades do site.
+                </p>
+              </div>
+
+              <h2 className="text-black font-bold text-2xl mb-8">4. Seus Direitos</h2>
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  Você pode:
+                </p>
+                <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
+                  <li>Limitar ou bloquear o uso de cookies nas configurações do navegador.</li>
+                  <li>Solicitar correções ou exclusão de informações pessoais enviando um e-mail para nós.</li>
+                </ul>
+              </div>
+
+              <h2 className="text-black font-bold text-2xl mb-8">5. Alterações na Política</h2>
+              <div>
+                <p className="text-gray-700 leading-relaxed">
+                  Esta política pode ser atualizada periodicamente para refletir melhorias ou mudanças legais. A versão mais recente estará sempre disponível nesta página.
+                </p>
+              </div>
+
+              <h2 className="text-black font-bold text-2xl mb-8">6. Contato</h2>
+              <div>
+                 <p className="text-gray-700 leading-relaxed">
+                  O Encarregado do Grupo Akiyama é a Dra. Cristina Nunes Borges. Informa-se que, em casos de ausências, impedimentos ou vacâncias, a função será exercida pelo Comitê de Segurança da Informação e Privacidade de Dados (CSIP) da Akiyama.
+                </p><br></br><br></br>
+                <p className="text-gray-700 leading-relaxed">
+                  Dúvidas ou solicitações relacionadas à privacidade? Escreva para <b>privacidade@grupoakiyama.com.br</b>.
+                </p>
+              </div>
+
+             
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
 
       {/* Final CTA Section */}

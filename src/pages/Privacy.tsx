@@ -37,8 +37,8 @@ const Privacy = () => {
       {/* Privacy Content */}
       <section className="pb-16 px-5">
         <div className="max-w-6xl mx-auto">
-          <div className="bg-black rounded-lg p-8 relative overflow-hidden h-[600px] items-end justify-start flex" style={{
-            backgroundImage: 'url(/lovable-uploads/privacy.png)',
+          <div className="bg-black rounded-lg p-8 relative overflow-hidden h-[400px] items-end justify-start flex" style={{
+            backgroundImage: '',
             backgroundPosition: 'center right',
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover'

@@ -48,17 +48,11 @@ const Privacy = () => {
 
             <div className="relative z-10">
               <h2 className="text-white font-bold text-2xl mb-6">
-                Tem dúvidas sobre privacidade?
+                Conheça nossas Politicas
               </h2>
-              <p className="text-gray-300 mb-6 max-w-md">
-                Protegemos seus dados com transparência e responsabilidade. Para qualquer solicitação ou esclarecimento, entre em contato.
-              </p>
+              
 
-              <Button asChild  className="mb-4">
-                <a href="mailto:privacidade@grupoakiyama.com.br" className="emailmobile">
-                  privacidade@grupoakiyama.com.br
-                </a>
-              </Button>
+             
             </div>
           </div>
         </div>
@@ -126,7 +120,7 @@ const Privacy = () => {
               <div>
                 <p className="text-gray-700 leading-relaxed">
                  A AKIYAMA, comprometida com os seus clientes, seus parceiros de negócios e seus colaboradores, tem sua Política da Qualidade (rev.4) nos seguintes princípios, visando atender às necessidades de suas partes interessadas: 
-
+<br></br><br></br>
                 </p>
                 <ul className="list-disc list-outside space-y-3 text-gray-700 leading-relaxed ml-5">
                   <li>

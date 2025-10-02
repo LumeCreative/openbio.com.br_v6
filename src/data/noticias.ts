@@ -17,74 +17,22 @@ export type Noticia = {
 export const noticias: Noticia[] = [
 
   {
-    slug: "parceira-da-integrated-biometrics",
-    titulo: "Parceira da Integrated Biometrics, Akiyama vence contrato com a Polícia Federal do Brasil",
+    slug: "parabens-curitiba",
+    titulo: "Curitiba: Reconhecimento nacional e o papel da novação no futuro",
+    subtitulo: "Curitiba: Reconhecimento nacional e o papel da novação no futuro",
     resumo:
-      "A Polícia Federal do Brasil adquiriu 1.500 scanners de impressão digital fabricados pela Integrated Biometrics após uma licitação recente.",
-    data: "2021-07-02",
-    capa: "/lovable-uploads/03.webp",
+      "É com grande entusiasmo que celebramos a recente conquista de Curitiba, que recebeu o Selo Diamante em Ecossistema de Inovação no Connected Smart Cities 2025",
+    data: "2025-10-03",
+    capa: "/lovable-uploads/jardim_botanico_foto_rdziura-0424.jpg",
+    autor: "",
     conteudoHtml: `
-      <p>A Polícia Federal do Brasil adquiriu 1.500 scanners de impressão digital fabricados pela Integrated Biometrics após uma licitação recente. O pedido dos dispositivos será atendido pela Akiyama, distribuidora exclusiva do hardware da Integrated Biometrics no Brasil.</p>
-      <p>Os dispositivos adquiridos são do modelo Kojak, com leitura de quatro dedos, e serão utilizados para o registro de passaportes biométricos, informou um porta-voz da Akiyama ao Biometric Update.</p>
-      <p>A Polícia Federal do Brasil é responsável por imigração, segurança de fronteiras e aeroportos, além do combate a crimes de competência federal. Os scanners serão distribuídos para as capitais estaduais, para uso em agendamentos de emissão de passaportes biométricos, e operados junto com câmeras e mesas de assinatura eletrônica.</p>
-      <p>A Akiyama é a distribuidora exclusiva dos produtos Integrated Biometrics e possui ampla atuação em todo o país desde que venceu, em 2015, a licitação para fornecer um sistema de eleições gerais baseado em 20.000 kits biométricos de votação.</p>
-      <p>Integrated Biometrics partner Akiyama wins Brazil Federal Police contract | Biometric Update</p>
+      <p>É com grande entusiasmo que celebramos a recente conquista de Curitiba, que recebeu o Selo Diamante em Ecossistema de Inovação no Connected Smart Cities 2025, realizado em São Paulo. Este reconhecimento destaca a cidade como líder em práticas de governança tecnológica, inovação e colaboração entre poder público, iniciativa privada, universidades e sociedade civil.</p>
+      <p>O Vale do Pinhão, ecossistema de inovação de Curitiba, é um exemplo de como a colaboração entre diferentes setores pode impulsionar o desenvolvimento sustentável e a transformação digital. A cidade, que já é reconhecida como a mais inteligente do Brasil, continua a investir em soluções inovadoras que melhoram a qualidade de vida de seus cidadãos.</p>
+      <p>Na OpenBio, compartilhamos dessa visão e compromisso com a inovação. Como parte do Grupo Akiyama, somos pioneiros em soluções de identificação biométrica, oferecendo tecnologias avançadas que contribuem para a transformação digital em diversos setores. Nosso trabalho está alinhado com os princípios que tornam Curitiba uma referência em inovação: colaboração, transparência e busca constante por soluções inteligentes</p>
+      <p>Parabenizamos Curitiba por essa conquista significativa e reafirmamos nosso compromisso em contribuir para o desenvolvimento de soluções inovadoras que promovam a segurança, eficiência e qualidade de vida. Estamos juntos nessa jornada de transformação digital.</p>
     `,
   },
 
-  
-  {
-    slug: "tse-amplia-bio",
-    titulo: "TSE adquire Kits para implementar biometria em todo o país",
-    subtitulo: "Por meio de contrato assinado com a empresa Akiyama Indústria e Comércio de Equipamentos Eletrônicos e Sistemas Ltda., vencedora de licitação, o TSE adquiriu  mais 2.550 Kits Biométricos.",
-    resumo:
-      "Por meio de contrato assinado com a empresa Akiyama Indústria e Comércio de Equipamentos Eletrônicos e Sistemas Ltda.",
-    data: "2022-08-01",
-    capa: "/lovable-uploads/01.webp",
-    autor: "imprensa@tse.jus.br",
-    fonteTitulo: "",
-    fonteUrl: "",
-    conteudoHtml: `
-      <p>Diante da necessidade de intensificar o projeto de identificação biométrica do eleitorado, que em 2012 alcançará cerca de 10 milhões de brasileiros, o Tribunal Superior Eleitoral (TSE) adquiriu mais 2.550 Kits Biométricos, conjunto de equipamentos utilizados para coleta das impressões digitais e atualização dos dados cadastrais dos votantes junto à Justiça Eleitoral. A aquisição dos kits ocorre por meio de contrato assinado entre o Tribunal e a empresa Akiyama Indústria e Comércio de Equipamentos Eletrônicos e Sistemas Ltda., vencedora de licitação iniciada em 2010 e concluída no final do ano passado para esta finalidade.</p>
-      <p>Os Kits destinam-se à realização do cadastramento ordinário dos eleitores de todo o país, ou seja, aqueles que procurarem o cartório eleitoral para tirar o título pela primeira vez já terão seus dados biométricos coletados, tornando-se aptos a serem identificados pelas impressões digitais nos pleitos realizados pela Justiça Eleitoral. A medida, que é fruto de acordo entre o TSE e os 27 tribunais regionais eleitorais (TREs), reduzirá o custo do projeto de identificação biométrica e evitará a formação de filas e transtornos aos eleitores no momento da coleta das digitais, dotando cada cartório eleitoral com um Kit Bio.<p>
-      <p>O Contrato nº 131/2011, assinado no dia 28 de dezembro último, teve por objeto a aquisição de 2.476 kits Biométricos e a prestação de serviço de integração e configuração dos equipamentos, com garantia técnica de, no mínimo, 12 meses. No entanto, a aquisição de outros 74 kits foi incluída em um termo aditivo ao contrato, assinado no dia 31 do mesmo mês, totalizando a compra de 2.550 Kits Bio.<p>
-      <p>
-      <b>2010 e 2011</b><br>
-      Em 2010, o TSE lançou edital dando início à licitação para a compra dos equipamentos. Todavia, devido a impugnações de empresas concorrentes, o processo licitatório foi interrompido por diversas vezes, sendo que os requisitos apontados pelo TSE no referido edital foram objeto de análise e aprovação pelo Tribunal de Contas da União (TCU) em mais de uma oportunidade.
-      <p>
-      <p>O TSE adotou medidas para agilizar a conclusão do procedimento no ano de 2010. Entretanto, as interrupções ocasionadas pelas impugnações das empresas levaram o Tribunal a devolver R$ 30 milhões do orçamento disponível para aquele ano ao Ministério do Planejamento.<p>
-      <p>Depois de analisar todos os questionamentos, e resondê-los com base em pareceres do Instituto Nacional de Identificação, a Corte Eleitoral deu prosseguimento, já em 2011, à licitação com a republicação do edital. A licitação foi realizada na modalidade de ata de registro de preços. A empresa Akiyama foi a escolhida por ter preenchido todas as especificações e condições constantes do Edital nº 121/2011.<p>
-      <p>O custo total empreendido pelo TSE para a aquisição dos novos Kits será de R$ 27.915.780,00, valor menor que o estimado inicialmente, que era de R$ 29,5 milhões, tendo a empresa vencedora apresentado o menor preço.<p>
-      <p>
-      <b>Kit Bio</b><br>
-      O chamado Kit Bio é composto de: leitor óptico de impressões digitais; dispositivo de capturas de imagens digitais (foto); flash externo; maleta de transporte e cenário (miniestúdio fotográfico com assento). Com a aquisição de novos equipamentos, a Justiça Eleitoral contará com 4.925 kits ao todo.
-      <p>
-      <p>Por meio do Kit Bio, a equipe treinada da Justiça Eleitoral realiza a coleta das impressões digitais, além de fazer a fotografia dos eleitores de maneira rápida e fácil, sem grandes dificuldades de manuseio. O scanner de altíssima resolução, por sua vez, permite uma leitura de qualidade das impressões digitais, e um programa de computador faz o controle de qualidade automaticamente.<p>
-      <p>Mais informações sobre a Biometria na Justiça Eleitoral podem ser obtidas no site <a href="https://www.justicaeleitoral.jus.br/biometria/" target="_blank">https://www.justicaeleitoral.jus.br/biometria/.</a><p>
-      <p>Veja o acórdão do TCU</p>
-  
-      <p>LC/LF<br><a href="https://www.tse.jus.br/comunicacao/noticias/2012/Janeiro/tse-adquire-kits-para-implementar-biometria-em-todo-o-pais" target="_blank">https://www.tse.jus.br/comunicacao/noticias/2012/Janeiro/tse-adquire-kits-para-implementar-biometria-em-todo-o-pais</a></p>
-    `,
-  },
-
-   {
-    slug: "leitor-biométrico-de-documentos",
-    titulo: "Leitor biométrico de documentos de identidade da Xperix é escolhido pela Akiyama para controle de fronteiras no Brasil",
-    subtitulo: "Leitor biométrico de documentos de identidade da Xperix é escolhido pela Akiyama para controle de fronteiras no Brasil",
-    resumo:
-      "A fornecedora de soluções biométricas Xperix Inc., sediada na Coreia do Sul, anunciou a integração bem-sucedida de seu leitor de documentos RealPass-N,",
-    data: "2024-04-10",
-    capa: "/lovable-uploads/04.webp",
-    conteudoHtml: `
-      <p>A fornecedora de soluções biométricas Xperix Inc., sediada na Coreia do Sul, anunciou a integração bem-sucedida de seu leitor de documentos RealPass-N, algoritmo de Reconhecimento Óptico de Caracteres (OCR) e desempenho de Infraestrutura de Chave Pública (PKI) aos sistemas de controle de fronteiras da Akiyama no Brasil.</p>
-      <p>Segundo comunicado da empresa, a forte parceria entre as duas companhias possibilitou a implementação, que tem como objetivo modernizar os processos de controle de fronteiras e migração, sendo considerada pela Xperix “um avanço significativo para a segurança e eficiência das fronteiras do Brasil”.</p>
-      <p>Entre os recursos do sistema aprimorado estão a capacidade de usar diversos modos de controle de acesso (BAC, PACE, EAC) e métodos de autenticação (passivo, ativo, chip e terminal). O sistema oferece detecção automática de documentos e início de digitalização, além de suporte para luz visível, infravermelha e ultravioleta de onda longa. Em termos de conformidade, atende aos padrões Tipo A e B da ISO 14443 e segue as especificações do ICAO Doc 9303.</p>
-      <p>John Lee, diretor-geral da Xperix, afirma que a empresa já observou o impacto significativo da implementação do leitor biométrico de passaportes RealPass-N no sistema de controle de fronteiras do Brasil. Segundo ele, a solução “aumentou consideravelmente a satisfação dos usuários” e reforçou o compromisso da Xperix em expandir sua parceria com a Akiyama no Brasil e em outros mercados.</p>
-      <p>O Grupo Akiyama, por sua vez, enfatiza que, embora a implementação das novas medidas biométricas de controle de fronteiras tenha sido “realmente desafiadora e complexa”, também é de extrema importância para o país. “A modernização dos postos de controle de fronteira da Polícia Federal em todo o território brasileiro foi realizada utilizando a avançada tecnologia de digitalização de documentos da Xperix, especificamente o RealPass-N”, afirma Artur Lisboa, gerente de projetos do Grupo Akiyama. “Estamos confiantes de que essa iniciativa trará melhorias significativas em agilidade e segurança para o controle de tráfego nas fronteiras do Brasil.”</p>
-      <p>A implementação segue o recente rebranding da Xperix, que veio acompanhado do compromisso de diversificar seu portfólio no segmento de biometria e identidade digital. A empresa, sediada em Seul, mudou seu nome de Suprema ID para Xperix em junho de 2023, refletindo seu direcionamento para o registro biométrico voltado a IDs nacionais, aplicação da lei e controle de acesso.</p>
-      <p>Xperix biometric ID document reader chosen by Akiyama for Brazil border control | Biometric Update</p>
-    `,
-  },
   {
     slug: "id4africa",
     titulo: "Empresas de biometria e identificação digital têm forte presença na ID4Africa 2022",
@@ -148,6 +96,81 @@ A francesa Prooftag mostrou suas soluções de rastreabilidade e segurança, inc
 
     `,
   },
+
+   {
+    slug: "leitor-biométrico-de-documentos",
+    titulo: "Leitor biométrico de documentos de identidade da Xperix é escolhido pela Akiyama para controle de fronteiras no Brasil",
+    subtitulo: "Leitor biométrico de documentos de identidade da Xperix é escolhido pela Akiyama para controle de fronteiras no Brasil",
+    resumo:
+      "A fornecedora de soluções biométricas Xperix Inc., sediada na Coreia do Sul, anunciou a integração bem-sucedida de seu leitor de documentos RealPass-N,",
+    data: "2024-04-10",
+    capa: "/lovable-uploads/04.webp",
+    conteudoHtml: `
+      <p>A fornecedora de soluções biométricas Xperix Inc., sediada na Coreia do Sul, anunciou a integração bem-sucedida de seu leitor de documentos RealPass-N, algoritmo de Reconhecimento Óptico de Caracteres (OCR) e desempenho de Infraestrutura de Chave Pública (PKI) aos sistemas de controle de fronteiras da Akiyama no Brasil.</p>
+      <p>Segundo comunicado da empresa, a forte parceria entre as duas companhias possibilitou a implementação, que tem como objetivo modernizar os processos de controle de fronteiras e migração, sendo considerada pela Xperix “um avanço significativo para a segurança e eficiência das fronteiras do Brasil”.</p>
+      <p>Entre os recursos do sistema aprimorado estão a capacidade de usar diversos modos de controle de acesso (BAC, PACE, EAC) e métodos de autenticação (passivo, ativo, chip e terminal). O sistema oferece detecção automática de documentos e início de digitalização, além de suporte para luz visível, infravermelha e ultravioleta de onda longa. Em termos de conformidade, atende aos padrões Tipo A e B da ISO 14443 e segue as especificações do ICAO Doc 9303.</p>
+      <p>John Lee, diretor-geral da Xperix, afirma que a empresa já observou o impacto significativo da implementação do leitor biométrico de passaportes RealPass-N no sistema de controle de fronteiras do Brasil. Segundo ele, a solução “aumentou consideravelmente a satisfação dos usuários” e reforçou o compromisso da Xperix em expandir sua parceria com a Akiyama no Brasil e em outros mercados.</p>
+      <p>O Grupo Akiyama, por sua vez, enfatiza que, embora a implementação das novas medidas biométricas de controle de fronteiras tenha sido “realmente desafiadora e complexa”, também é de extrema importância para o país. “A modernização dos postos de controle de fronteira da Polícia Federal em todo o território brasileiro foi realizada utilizando a avançada tecnologia de digitalização de documentos da Xperix, especificamente o RealPass-N”, afirma Artur Lisboa, gerente de projetos do Grupo Akiyama. “Estamos confiantes de que essa iniciativa trará melhorias significativas em agilidade e segurança para o controle de tráfego nas fronteiras do Brasil.”</p>
+      <p>A implementação segue o recente rebranding da Xperix, que veio acompanhado do compromisso de diversificar seu portfólio no segmento de biometria e identidade digital. A empresa, sediada em Seul, mudou seu nome de Suprema ID para Xperix em junho de 2023, refletindo seu direcionamento para o registro biométrico voltado a IDs nacionais, aplicação da lei e controle de acesso.</p>
+      <p>Xperix biometric ID document reader chosen by Akiyama for Brazil border control | Biometric Update</p>
+    `,
+  },
+
+   {
+    slug: "tse-amplia-bio",
+    titulo: "TSE adquire Kits para implementar biometria em todo o país",
+    subtitulo: "Por meio de contrato assinado com a empresa Akiyama Indústria e Comércio de Equipamentos Eletrônicos e Sistemas Ltda., vencedora de licitação, o TSE adquiriu  mais 2.550 Kits Biométricos.",
+    resumo:
+      "Por meio de contrato assinado com a empresa Akiyama Indústria e Comércio de Equipamentos Eletrônicos e Sistemas Ltda.",
+    data: "2022-08-01",
+    capa: "/lovable-uploads/01.webp",
+    autor: "imprensa@tse.jus.br",
+    fonteTitulo: "",
+    fonteUrl: "",
+    conteudoHtml: `
+      <p>Diante da necessidade de intensificar o projeto de identificação biométrica do eleitorado, que em 2012 alcançará cerca de 10 milhões de brasileiros, o Tribunal Superior Eleitoral (TSE) adquiriu mais 2.550 Kits Biométricos, conjunto de equipamentos utilizados para coleta das impressões digitais e atualização dos dados cadastrais dos votantes junto à Justiça Eleitoral. A aquisição dos kits ocorre por meio de contrato assinado entre o Tribunal e a empresa Akiyama Indústria e Comércio de Equipamentos Eletrônicos e Sistemas Ltda., vencedora de licitação iniciada em 2010 e concluída no final do ano passado para esta finalidade.</p>
+      <p>Os Kits destinam-se à realização do cadastramento ordinário dos eleitores de todo o país, ou seja, aqueles que procurarem o cartório eleitoral para tirar o título pela primeira vez já terão seus dados biométricos coletados, tornando-se aptos a serem identificados pelas impressões digitais nos pleitos realizados pela Justiça Eleitoral. A medida, que é fruto de acordo entre o TSE e os 27 tribunais regionais eleitorais (TREs), reduzirá o custo do projeto de identificação biométrica e evitará a formação de filas e transtornos aos eleitores no momento da coleta das digitais, dotando cada cartório eleitoral com um Kit Bio.<p>
+      <p>O Contrato nº 131/2011, assinado no dia 28 de dezembro último, teve por objeto a aquisição de 2.476 kits Biométricos e a prestação de serviço de integração e configuração dos equipamentos, com garantia técnica de, no mínimo, 12 meses. No entanto, a aquisição de outros 74 kits foi incluída em um termo aditivo ao contrato, assinado no dia 31 do mesmo mês, totalizando a compra de 2.550 Kits Bio.<p>
+      <p>
+      <b>2010 e 2011</b><br>
+      Em 2010, o TSE lançou edital dando início à licitação para a compra dos equipamentos. Todavia, devido a impugnações de empresas concorrentes, o processo licitatório foi interrompido por diversas vezes, sendo que os requisitos apontados pelo TSE no referido edital foram objeto de análise e aprovação pelo Tribunal de Contas da União (TCU) em mais de uma oportunidade.
+      <p>
+      <p>O TSE adotou medidas para agilizar a conclusão do procedimento no ano de 2010. Entretanto, as interrupções ocasionadas pelas impugnações das empresas levaram o Tribunal a devolver R$ 30 milhões do orçamento disponível para aquele ano ao Ministério do Planejamento.<p>
+      <p>Depois de analisar todos os questionamentos, e resondê-los com base em pareceres do Instituto Nacional de Identificação, a Corte Eleitoral deu prosseguimento, já em 2011, à licitação com a republicação do edital. A licitação foi realizada na modalidade de ata de registro de preços. A empresa Akiyama foi a escolhida por ter preenchido todas as especificações e condições constantes do Edital nº 121/2011.<p>
+      <p>O custo total empreendido pelo TSE para a aquisição dos novos Kits será de R$ 27.915.780,00, valor menor que o estimado inicialmente, que era de R$ 29,5 milhões, tendo a empresa vencedora apresentado o menor preço.<p>
+      <p>
+      <b>Kit Bio</b><br>
+      O chamado Kit Bio é composto de: leitor óptico de impressões digitais; dispositivo de capturas de imagens digitais (foto); flash externo; maleta de transporte e cenário (miniestúdio fotográfico com assento). Com a aquisição de novos equipamentos, a Justiça Eleitoral contará com 4.925 kits ao todo.
+      <p>
+      <p>Por meio do Kit Bio, a equipe treinada da Justiça Eleitoral realiza a coleta das impressões digitais, além de fazer a fotografia dos eleitores de maneira rápida e fácil, sem grandes dificuldades de manuseio. O scanner de altíssima resolução, por sua vez, permite uma leitura de qualidade das impressões digitais, e um programa de computador faz o controle de qualidade automaticamente.<p>
+      <p>Mais informações sobre a Biometria na Justiça Eleitoral podem ser obtidas no site <a href="https://www.justicaeleitoral.jus.br/biometria/" target="_blank">https://www.justicaeleitoral.jus.br/biometria/.</a><p>
+      <p>Veja o acórdão do TCU</p>
+  
+      <p>LC/LF<br><a href="https://www.tse.jus.br/comunicacao/noticias/2012/Janeiro/tse-adquire-kits-para-implementar-biometria-em-todo-o-pais" target="_blank">https://www.tse.jus.br/comunicacao/noticias/2012/Janeiro/tse-adquire-kits-para-implementar-biometria-em-todo-o-pais</a></p>
+    `,
+  },
+
+  {
+    slug: "parceira-da-integrated-biometrics",
+    titulo: "Parceira da Integrated Biometrics, Akiyama vence contrato com a Polícia Federal do Brasil",
+    resumo:
+      "A Polícia Federal do Brasil adquiriu 1.500 scanners de impressão digital fabricados pela Integrated Biometrics após uma licitação recente.",
+    data: "2021-07-02",
+    capa: "/lovable-uploads/03.webp",
+    conteudoHtml: `
+      <p>A Polícia Federal do Brasil adquiriu 1.500 scanners de impressão digital fabricados pela Integrated Biometrics após uma licitação recente. O pedido dos dispositivos será atendido pela Akiyama, distribuidora exclusiva do hardware da Integrated Biometrics no Brasil.</p>
+      <p>Os dispositivos adquiridos são do modelo Kojak, com leitura de quatro dedos, e serão utilizados para o registro de passaportes biométricos, informou um porta-voz da Akiyama ao Biometric Update.</p>
+      <p>A Polícia Federal do Brasil é responsável por imigração, segurança de fronteiras e aeroportos, além do combate a crimes de competência federal. Os scanners serão distribuídos para as capitais estaduais, para uso em agendamentos de emissão de passaportes biométricos, e operados junto com câmeras e mesas de assinatura eletrônica.</p>
+      <p>A Akiyama é a distribuidora exclusiva dos produtos Integrated Biometrics e possui ampla atuação em todo o país desde que venceu, em 2015, a licitação para fornecer um sistema de eleições gerais baseado em 20.000 kits biométricos de votação.</p>
+      <p>Integrated Biometrics partner Akiyama wins Brazil Federal Police contract | Biometric Update</p>
+    `,
+  },
+
+  
+ 
+
+  
+  
   
  
  

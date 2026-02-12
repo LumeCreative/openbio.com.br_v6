@@ -149,8 +149,9 @@ const Privacy = () => {
 
               
 
-              <div>
-                <img className="max-w-[200px] mt-10" src="/lovable-uploads/ISO-9001_col.jpg"></img>
+              <div className="flex items-end gap-4 mt-10">
+                <img className="max-w-[120px]" src="/lovable-uploads/ISO-9001_col.jpg"></img>
+                <img className="max-w-[120px]" src="/lovable-uploads/selo02.jpg"></img>
               </div>
             </div>
           </div>
